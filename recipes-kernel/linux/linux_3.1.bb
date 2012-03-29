@@ -1,4 +1,4 @@
-require linux.inc
+require recipes-kernel/linux/linux.inc
 
 PR = "${INC_PR}.11"
 COMPATIBLE_MACHINE = "h1940"

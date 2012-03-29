@@ -6,7 +6,7 @@ KV = "2.6.38-oe"
 PV = "${KV}+gitr${SRCREV}"
 PR = "r0"
 
-require linux.inc
+require recipes-kernel/linux/linux.inc
 
 # Make sure not to use thumb[-interworking]
 ARM_INSTRUCTION_SET = "arm"
